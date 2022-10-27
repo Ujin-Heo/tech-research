@@ -1,11 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-/*@import "reset.css"; */
+
+@import "css/reset.css";
+
 
 div, header {
     margin: 10px;
 }
 
 body {
+    box-sizing: border-box;
     color: #2f363e;
     font-family: "Open Sans", sans-serif;
   }
+
+
+.tech-header {
+    display:flex;
+    justify-content: center;
+}
+
+.tech-content {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tech-content__column {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.tech-content__title {
+    font-size: 20px;
+    font-weight: 500
+    font-family: ;
+}
+
+.tech-content__text {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: ;
+}
+
+.tech-content__image {
+    width: 50%;
+    height: 50%px;
+}
