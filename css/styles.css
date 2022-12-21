@@ -8,4 +8,39 @@ div, header {
 body {
     color: #2f363e;
     font-family: "Open Sans", sans-serif;
+    margin: 20px, 40px;
   }
+
+header {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.title {
+    padding: 20px, 40px;
+    display:block;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 140px;
+    height:100px;
+    padding: 5px, 5px;
+    margin: 10px;
+
+}
