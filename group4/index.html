@@ -190,55 +190,63 @@
          </div>
       </div>
       end about -->
-      
+
       <!-- wedo  section -->
       <div class="wedo ">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>What We Do</h2>
-                     <p>It is a long established fact that a reader will be distracted by the </p>
+                     <h2>블록체인 구현 기술</h2>
                   </div>
                </div>
             </div>
             <div class="row">
                <div class="col-md-10 offset-md-1">
                   <div class="row">
+                     <!--비대칭키-->
                      <div class="col-md-6 margin_bottom">
                         <div class="work">
-                           <figure><img src="images/img1.png" alt="#" /></figure>
-                        </div>
-                        <div class="work_text">
-                           <h3>Quick repair<br><span class="blu">Total Service</span></h3>
+                           <figure><img src="images/비대칭키.jpg" alt="#" /></figure>
                         </div>
                      </div>
                      <div class="col-md-6 margin_bottom">
-                        <div class="work">
-                           <figure><img src="images/img2.png" alt="#" /></figure>
+                        <div class="work_textt">
+                           <h3>비대칭키<br><p class="blu">P2P 거래에서 정보를 암호화 하기 위해 사용되는 기술이다.  정보의 수신자는 개인키, 공개키의 2개의 키를 가지고 있다.  이때 ‘키’는 비밀번호와도 같은 일련의 숫자이다.  개인키와 공개키는 수학적으로 연관되어 있으며, 공개키로 암호화한 정보는 개인키로만 복화화할 수 있다.  송신자는 외부에 공개되어 있는 수신자의 공개키로 정보를 암호화하고 수신자에게 보낸다.  수신자는 받은 정보를 자신만이 알고 있는 개인키로 복호화하여 정보를 알 수 있다.  비대칭키 기술을 통해 중간의 매개자 없이도 개인 간에 신뢰할 수 있는 거래가 가능하다.</p></h3>
                         </div>
-                        <div class="work_text">
-                           <h3>Quick repair<br><span class="blu">Total Service</span></h3>
+                     </div>
+
+                     <!--해시함수-->
+                     <div class="col-md-6 margin_bottom">
+                        <div class="work">
+                           <figure><img src="images/해시함수.webp" alt="#" /></figure>
                         </div>
                      </div>
                      <div class="col-md-6 margin_bottom">
-                        <div class="work">
-                           <figure><img src="images/img3.png" alt="#" /></figure>
+                        <div class="work_textt">
+                           <h3>해시함수<br><p class="blu">해시함수는 다음과 같은 3가지 특징을 가지는 함수이다.
+                              -어떤 데이터를 입력하더라도 고정된 길이의 숫자 출력값을 출력한다.
+                              -입력값을 가지고 출력값을 예측할 수 없고, 그 반대도 불가능하다.
+                              -입력값이 조금만 바뀌어도 출력값이 완전히 달라진다.
+                              블록 안의 모든 정보는 해시함수를 통해 하나의 해시값으로 연결되어 저장된다.  따라서 블록 안의 사소한 하나의 정보가 바뀌어도 블록의 해시값이 완전히 달라지게 되어 위변조를 방지한다.  또한 해시함수는 POW의 과정에 사용되기도 한다.
+                              </p></h3>
                         </div>
-                        <div class="work_text">
-                           <h3>Quick repair<br> <span class="blu">Total Service</span></h3>
+                     </div>
+
+                     <!--작업증명-->
+                     <div class="col-md-6 margin_bottom">
+                        <div class="work">
+                           <figure><img src="images/작업증명.png" alt="#" /></figure>
                         </div>
                      </div>
                      <div class="col-md-6 margin_bottom">
-                        <div class="work">
-                           <figure><img src="images/img4.png" alt="#" /></figure>
-                        </div>
-                        <div class="work_text">
-                           <h3>Quick repair<br><span class="blu">Total Service</span></h3>
+                        <div class="work_textt">
+                           <h3>POW(Proof of Work; 작업증명)<br><p class="blu">블록체인 네트워크에서 구성원 간의 합의를 이끌어내는 방법이다.  블록체인 네트워크에는 약 10분에 한 번 새로운 블록이 추가된다.  그 10분 동안 각각의 구성원의 컴퓨터에 새롭게 저장된 데이터에는 차이가 있을 수 있다.  따라서 이러한 불일치를 해결하기 위해 모든 구성원 중 대표자를 1명 뽑아 그 구성원이 만든 블록을 모두의 블록체인에 추가한다.  이렇게 구성원들이 가진 데이터 간의 불일치를 없애는 과정을 ‘합의’라고 부른다.
+                              대표자로 선출되려면 컴퓨터 연산을 통해 10분 안에 네트워크 구성원들 중 가장 먼저 Nounce라는 값을 찾아내야 한다.  가장 먼저 Nounce 값을 찾아낸 구성원은 대표자가 되고, 그에 따른 보상을 받는다.  비트코인 네트워크의 경우 그 보상이 ‘비트코인’이다.  이처럼 블록체인 네트워크는 보상을 통해 구성원들이 자발적으로 대표자를 선출하여 네트워크의 합의에 기여하도록 유도한다.  이때 Nounce 값을 구하여 블록체인 네트워크의 대표자가 되어 블록을 만들고 보상을 받는 활동을 ‘채굴(Mining)’이라고 부른다.
+                            </p></h3>
                         </div>
                      </div>
                   </div>
-                  <a class="read_more" href="#">See More</a>
                </div>
             </div>
          </div>
