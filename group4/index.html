@@ -19,7 +19,7 @@
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="images/데이터랩 로고_블랙.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
@@ -46,7 +46,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              <a href="https://ywdatalab.github.io/tech-research/"><img id="logo" src="images/데이터랩 로고.png" alt="#" /></a>
                            </div>
                         </div>
                      </div>
@@ -59,25 +59,16 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                 <a class="nav-link" href="index.html"> Home  </a>
+                                 <a class="nav-link" href="#Home">Home</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="about.html">About</a>
+                                 <a class="nav-link" href="#Traits">특징</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="furnitures.html">Furnitures</a>
+                                 <a class="nav-link" href="#Tech">핵심기술</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="testimonial.html">Testimonial</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="contact.html">Contact Us</a>
-                              </li>
-                              <li class="nav-item d_none">
-                                 <a class="nav-link" href="#"><i class="fa fa-user-circle padd_right" aria-hidden="true"></i>Login/Register</a>
-                              </li>
-                              <li class="nav-item d_none">
-                                 <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                 <a class="nav-link" href="#Utilization">활용분야</a>
                               </li>
                            </ul>
                         </div>
@@ -90,7 +81,7 @@
       <!-- end header inner -->
       <!-- end header -->
       <!-- banner -->
-      <section class="banner_main">
+      <section class="banner_main" id="Home">
          <div id="banner1" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner"> <!--컨텐트-->
                <div class="carousel-item active">
@@ -101,16 +92,18 @@
                               <div class="text-bg">
                                  <h1>블록체인이란?</h1>
                                  <span>탈중앙화된 시스템</span>
-                                 <p>  중앙 관리 주체 없이 동등한 권한을 가진 개개인의 주체로 구성된 네트워크를 이용한 데이터 처리 기술을 말한다.  블록체인 네트워크에는 데이터가 일정한 ‘블록’ 단위로 묶여서 저장되고, 이 블록들이 마치 ‘사슬(체인)’과 같이 연결되어 있어 이러한 네트워크를 ‘블록체인’ 네트워크라고 부른다.  중앙은행이 없는 화폐 시스템인 비트코인(암호화폐)이 그 대표적인 예시이다.
+                                 <p>중앙 관리 주체 없이 동등한 권한을 가진 개개인의 주체로 구성된 네트워크를 이용한 데이터 처리 기술을 말한다.  블록체인 네트워크에는 데이터가 일정한 ‘블록’ 단위로 묶여서 저장되고, 이 블록들이 마치 ‘사슬(체인)’과 같이 연결되어 있어 이러한 네트워크를 ‘블록체인’ 네트워크라고 부른다.  중앙은행이 없는 화폐 시스템인 비트코인(암호화폐)이 그 대표적인 예시이다.
                                  </p>
-                                 <a href="#">블록체인의 특징</a> <a href="#">블록체인 핵심 기술</a>
+                                 <a href="#Traits">블록체인의 특징</a> <a href="#Tech">블록체인 핵심 기술</a>
                               </div>
                            </div>
                            <div class="col-md-6">
                               <div class="text_img">
                                  <figure><img src="images/blockchain.png" alt="#"/></figure>
                               </div>
-                              <a href="#">블록체인 활용분야</a>
+                              <div class="text-bg">
+                                 <a id="utbutton" href="#Utilization">블록체인 활용분야</a>
+                              </div>
                            </div>
                         </div>
                      </div>
@@ -125,20 +118,24 @@
             </a>
          </div>
       </section>
+      <br/>
+      <br/>
       <!-- end banner -->
 
       <!-- three_box -->
-      <div class="three_box">
+      <div class="three_box" id="Traits">
          <div class="container">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="titlepage">
-                        <h2>블록체인의 특징</h2>
-                     </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>블록체인의 특징</h2>
                   </div>
                </div>
-               <div class="container">
+            </div>
+         </div>
+         <br/>
+         <br/>
+         <div class="container">
             <div class="row">
                <div class="col-md-4">
                   <div class="box_text">
@@ -167,12 +164,12 @@
       <!-- end three_box -->
 
       <!-- wedo  section -->
-      <div class="wedo ">
+      <div class="wedo" id="Tech">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>블록체인 구현 기술</h2>
+                     <h2>블록체인 핵심 기술</h2>
                   </div>
                </div>
             </div>
@@ -187,7 +184,8 @@
                      </div>
                      <div class="col-md-6 margin_bottom">
                         <div class="work_textt">
-                           <h3>비대칭키<br><p class="blu">P2P 거래에서 정보를 암호화 하기 위해 사용되는 기술이다.  정보의 수신자는 개인키, 공개키의 2개의 키를 가지고 있다.  이때 ‘키’는 비밀번호와도 같은 일련의 숫자이다.  개인키와 공개키는 수학적으로 연관되어 있으며, 공개키로 암호화한 정보는 개인키로만 복화화할 수 있다.  송신자는 외부에 공개되어 있는 수신자의 공개키로 정보를 암호화하고 수신자에게 보낸다.  수신자는 받은 정보를 자신만이 알고 있는 개인키로 복호화하여 정보를 알 수 있다.  비대칭키 기술을 통해 중간의 매개자 없이도 개인 간에 신뢰할 수 있는 거래가 가능하다.</p></h3>
+                           <h3>비대칭키</h3>
+                           <p>P2P 거래에서 정보를 암호화 하기 위해 사용되는 기술이다.  정보의 수신자는 개인키, 공개키의 2개의 키를 가지고 있다.  이때 ‘키’는 비밀번호와도 같은 일련의 숫자이다.  개인키와 공개키는 수학적으로 연관되어 있으며, 공개키로 암호화한 정보는 개인키로만 복화화할 수 있다.  송신자는 외부에 공개되어 있는 수신자의 공개키로 정보를 암호화하고 수신자에게 보낸다.  수신자는 받은 정보를 자신만이 알고 있는 개인키로 복호화하여 정보를 알 수 있다.  비대칭키 기술을 통해 중간의 매개자 없이도 개인 간에 신뢰할 수 있는 거래가 가능하다.</p>
                         </div>
                      </div>
 
@@ -199,12 +197,13 @@
                      </div>
                      <div class="col-md-6 margin_bottom">
                         <div class="work_textt">
-                           <h3>해시함수<br><p class="blu">해시함수는 다음과 같은 3가지 특징을 가지는 함수이다.
-                              -어떤 데이터를 입력하더라도 고정된 길이의 숫자 출력값을 출력한다.
-                              -입력값을 가지고 출력값을 예측할 수 없고, 그 반대도 불가능하다.
-                              -입력값이 조금만 바뀌어도 출력값이 완전히 달라진다.
-                              블록 안의 모든 정보는 해시함수를 통해 하나의 해시값으로 연결되어 저장된다.  따라서 블록 안의 사소한 하나의 정보가 바뀌어도 블록의 해시값이 완전히 달라지게 되어 위변조를 방지한다.  또한 해시함수는 POW의 과정에 사용되기도 한다.
-                              </p></h3>
+                           <h3>해시함수</h3>
+                           <p>해시함수는 다음과 같은 3가지 특징을 가지는 함수이다.</p>
+                           <p>-어떤 데이터를 입력하더라도 고정된 길이의 출력값을 출력함.</p>
+                           <p>-입력값을 가지고 출력값을 예측할 수 없고, 그 반대도 불가능함.</p>
+                           <p>-입력값이 조금만 바뀌어도 출력값이 완전히 달라짐.</p>
+                           <p>블록 안의 모든 정보는 해시함수를 통해 하나의 해시값으로 연결되어 저장된다.  따라서 블록 안의 사소한 하나의 정보가 바뀌어도 블록의 해시값이 완전히 달라지게 되어 위변조를 방지한다.  또한 해시함수는 POW의 과정에 사용되기도 한다.
+                           </p>
                         </div>
                      </div>
 
@@ -216,9 +215,10 @@
                      </div>
                      <div class="col-md-6 margin_bottom">
                         <div class="work_textt">
-                           <h3>POW(Proof of Work; 작업증명)<br><p class="blu">블록체인 네트워크에서 구성원 간의 합의를 이끌어내는 방법이다.  블록체인 네트워크에는 약 10분에 한 번 새로운 블록이 추가된다.  그 10분 동안 각각의 구성원의 컴퓨터에 새롭게 저장된 데이터에는 차이가 있을 수 있다.  따라서 이러한 불일치를 해결하기 위해 모든 구성원 중 대표자를 1명 뽑아 그 구성원이 만든 블록을 모두의 블록체인에 추가한다.  이렇게 구성원들이 가진 데이터 간의 불일치를 없애는 과정을 ‘합의’라고 부른다.
-                              대표자로 선출되려면 컴퓨터 연산을 통해 10분 안에 네트워크 구성원들 중 가장 먼저 Nounce라는 값을 찾아내야 한다.  가장 먼저 Nounce 값을 찾아낸 구성원은 대표자가 되고, 그에 따른 보상을 받는다.  비트코인 네트워크의 경우 그 보상이 ‘비트코인’이다.  이처럼 블록체인 네트워크는 보상을 통해 구성원들이 자발적으로 대표자를 선출하여 네트워크의 합의에 기여하도록 유도한다.  이때 Nounce 값을 구하여 블록체인 네트워크의 대표자가 되어 블록을 만들고 보상을 받는 활동을 ‘채굴(Mining)’이라고 부른다.
-                            </p></h3>
+                           <h3>POW(Proof of Work; 작업증명)</h3>
+                           <p>블록체인 네트워크에서 구성원 간의 합의를 이끌어내는 방법이다.  블록체인 네트워크에는 약 10분에 한 번 새로운 블록이 추가된다.  그 10분 동안 각각의 구성원의 컴퓨터에 새롭게 저장된 데이터에는 차이가 있을 수 있다.  따라서 이러한 불일치를 해결하기 위해 모든 구성원 중 대표자를 1명 뽑아 그 구성원이 만든 블록을 모두의 블록체인에 추가한다.  이렇게 구성원들이 가진 데이터 간의 불일치를 없애는 과정을 ‘합의’라고 부른다.</p>
+                           <p>대표자로 선출되려면 컴퓨터 연산을 통해 10분 안에 네트워크 구성원들 중 가장 먼저 Nounce라는 값을 찾아내야 한다.  가장 먼저 Nounce 값을 찾아낸 구성원은 대표자가 되고, 그에 따른 보상을 받는다.  비트코인 네트워크의 경우 그 보상이 ‘비트코인’이다.  이처럼 블록체인 네트워크는 보상을 통해 구성원들이 자발적으로 대표자를 선출하여 네트워크의 합의에 기여하도록 유도한다.  이때 Nounce 값을 구하여 블록체인 네트워크의 대표자가 되어 블록을 만들고 보상을 받는 활동을 ‘채굴(Mining)’이라고 부른다.
+                            </p>
                         </div>
                      </div>
                   </div>
@@ -228,7 +228,7 @@
       </div>
       <!-- end wedo  section -->
       <!-- testimonial -->
-      <div class="testimonial">
+      <div class="testimonial" id="Utilization">
          <div class="container">
             <!--활용 분야 제목-->
             <div class="row">
@@ -277,7 +277,8 @@
                                  <div class="row">
                                     <div class="col-md-6 margin_boot">
                                        <div class="test_box">
-                                          <i><img src="images/nyan cat.gif" alt="#"/></i>
+                                          <i><img src="images/에너지.webp" alt="#"/></i>
+                                          <i><a href="https://youtu.be/LGWVAzB8IDI"><span>관련 영상 보러가기</span></a></i>
                                        </div>
                                     </div>
                                     <div class="col-md-6 margin_boot">
@@ -314,7 +315,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
-                        <p>Copyright 2019 All Right Reserved By <a href="https://html.design/"> Free  html Templates</a></p>
+                        <p>made by 허우진, 권선우, 황도영</a></p>
                      </div>
                   </div>
                </div>

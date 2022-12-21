@@ -30,6 +30,25 @@
 @import url(nice-select.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+p {
+     text-indent: 10px;
+}
+
+.work_textt h3 {
+     font-weight: 600;
+}
+
+#utbutton {
+     position:absolute;
+     bottom:0px;
+     left:-160px;
+}
+
+#logo {
+     width: 120px;
+     height: 100px;
+}
+
 
 * {
      box-sizing: border-box !important;
@@ -365,6 +384,7 @@ ul.btn li:last-child {
 .header {
      width: 100%;
      padding: 20px 30px;
+     padding-bottom: 5px;
      border-bottom: #000 solid 20px;
      background-image: linear-gradient(to bottom, #1559b7, #4f7af3);
 }
@@ -399,7 +419,7 @@ ul.btn li:last-child {
 .text-bg h1 {
      text-transform: uppercase;
      color: #51fe44;
-     font-size: 90px;
+     font-size: 80px;
      line-height: 80px;
      padding-bottom: 35px;
      font-weight: bold;
@@ -416,6 +436,7 @@ ul.btn li:last-child {
 }
 
 .text-bg p {
+     text-indent: 10px;
      line-height: 28px;
      font-weight: 500;
      padding-bottom: 20px;
@@ -516,7 +537,7 @@ ul.btn li:last-child {
      font-weight: bold;
      padding: 0;
      border-bottom: #0556c4 solid 1px;
-     max-width: 300px;
+     max-width: 350px;
      margin: auto;
 }
 
