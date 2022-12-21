@@ -11,40 +11,39 @@ body {
     box-sizing: border-box;
     color: #2f363e;
     font-family: "Open Sans", sans-serif;
+    margin: 20px, 40px;
   }
 
-
-.tech-header {
+header {
+    text-align: center;
     display:flex;
     justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
-.tech-content {
-    display:flex;
-    justify-content: center;
-    width: 100%;
+.title {
+    padding: 20px, 40px;
+    display:block;
 }
 
-.tech-content__column {
-    display:flex;
+.menu {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    align-items: center;
 }
 
-.tech-content__title {
-    font-size: 20px;
-    font-weight: 500
-    font-family: ;
+.menu__column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.tech-content__text {
-    font-size: 15px;
-    font-weight: 300;
-    font-family: ;
-}
+button {
+    width: 140px;
+    height:100px;
+    padding: 5px, 5px;
+    margin: 10px;
 
-.tech-content__image {
-    width: 50%;
-    height: 50%px;
 }
