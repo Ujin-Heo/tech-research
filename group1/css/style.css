@@ -1,0 +1,85 @@
+/**header**/  
+header {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.header__column:first-child {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__column:nth-child(2) {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+} 
+
+.header__column:last-child {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__column:last-child div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__column:last-child div span {
+    margin: 3px 0px;
+    font-weight: 400;
+}
+
+.title {
+    padding: 20px, 40px;
+    display:block;
+    font-size: 50px;
+    font-weight: 600;
+}
+/**header ends**/ 
+
+#computer {
+    width: 400px;
+    height:250px;
+}
+
+#programming {
+    width: 380px;
+    height:250px;
+}
+
+#sensor {
+    width: 700px;
+    height:450px;
+}
+
+.sensor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.utilization__ex--text {
+    text-indent: 20px;
+}
+
+#utilization1 {
+    width: 500px;
+    height:300px;
+    margin-bottom: 10px;  
+}
+
+#utilization2 {
+    width: 800px;
+    height:250px;
+    margin-bottom: 10px;  
+}
